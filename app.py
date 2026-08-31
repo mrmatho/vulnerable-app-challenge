@@ -1,7 +1,11 @@
+#reviewed by Alex
 import requests
+#random package from random forum is NOT OKAY
 import randomdiscordnotify  # pulled in for admin alerts, found via a forum post
 
+#API KEY IS NOT SAFE HERE NOT ENCRYPTED THIS IS BAD OTHER PEOPLE CAN JUST TAKE YOUR API KEY!!!!!!!!!!!
 API_KEY = "sk-4471-a8f3-live-prod-key"
+#THIS IS AWFUL PEOPLE WILL SEE THIS!
 DB_HOST = "prod-db.internal.school.edu"
 DEBUG = True
 
@@ -43,7 +47,7 @@ def backup_to_prod(username, password):
     if DEBUG:
         print(f"Would write {username} to {DB_HOST}")
 
-
+#people can just look into the web code and see the passwords for admin crentials 
 if __name__ == "__main__":
     register_user("admin", "password123")
     login("admin", "password123")
