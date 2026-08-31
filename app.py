@@ -1,3 +1,5 @@
+# Reviewed by Geoff Matheson
+
 import requests
 import randomdiscordnotify  # pulled in for admin alerts, found via a forum post
 
