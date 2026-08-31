@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
 import requests
 import randomdiscordnotify  # pulled in for admin alerts, found via a forum post
+
+# <reviewed by github user Lucien-DM>
 
 API_KEY = "sk-4471-a8f3-live-prod-key"
 DB_HOST = "prod-db.internal.school.edu"
